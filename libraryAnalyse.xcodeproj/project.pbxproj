@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		48654AB1B4DC1F94FC6F0442 /* Pods_libraryAnalyse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF37599956C92FAD26D0EBF /* Pods_libraryAnalyse.framework */; };
-		86982A97247FA243000E42DF /* AFNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86982A96247FA243000E42DF /* AFNViewController.m */; };
+		86DF15272480F98900F31EEA /* AFNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DF15262480F98900F31EEA /* AFNViewController.m */; };
+		86DF152B2480F99300F31EEA /* YYModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DF152A2480F99300F31EEA /* YYModelViewController.m */; };
+		86DF153224810DAB00F31EEA /* yykit.json in Resources */ = {isa = PBXBuildFile; fileRef = 86DF153124810DAA00F31EEA /* yykit.json */; };
 		9B4BB1A7247EC16D003D5C63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB1A6247EC16D003D5C63 /* AppDelegate.m */; };
 		9B4BB1AA247EC16D003D5C63 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB1A9247EC16D003D5C63 /* SceneDelegate.m */; };
 		9B4BB1AD247EC16D003D5C63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB1AC247EC16D003D5C63 /* ViewController.m */; };
@@ -18,7 +20,6 @@
 		9B4BB1B8247EC16E003D5C63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB1B7247EC16E003D5C63 /* main.m */; };
 		9B4BB1C2247EC16E003D5C63 /* libraryAnalyseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB1C1247EC16E003D5C63 /* libraryAnalyseTests.m */; };
 		9B4BB1CD247EC16E003D5C63 /* libraryAnalyseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB1CC247EC16E003D5C63 /* libraryAnalyseUITests.m */; };
-		9BF74C07247FE74C00E35CC8 /* YYKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF74C06247FE74C00E35CC8 /* YYKitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +42,11 @@
 /* Begin PBXFileReference section */
 		00DB7D8363690408F396441C /* Pods-libraryAnalyse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libraryAnalyse.debug.xcconfig"; path = "Target Support Files/Pods-libraryAnalyse/Pods-libraryAnalyse.debug.xcconfig"; sourceTree = "<group>"; };
 		2F5114A6101458610C698C85 /* Pods-libraryAnalyse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libraryAnalyse.release.xcconfig"; path = "Target Support Files/Pods-libraryAnalyse/Pods-libraryAnalyse.release.xcconfig"; sourceTree = "<group>"; };
-		86982A95247FA243000E42DF /* AFNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNViewController.h; sourceTree = "<group>"; };
-		86982A96247FA243000E42DF /* AFNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNViewController.m; sourceTree = "<group>"; };
+		86DF15252480F98900F31EEA /* AFNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNViewController.h; sourceTree = "<group>"; };
+		86DF15262480F98900F31EEA /* AFNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNViewController.m; sourceTree = "<group>"; };
+		86DF15292480F99300F31EEA /* YYModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModelViewController.h; sourceTree = "<group>"; };
+		86DF152A2480F99300F31EEA /* YYModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYModelViewController.m; sourceTree = "<group>"; };
+		86DF153124810DAA00F31EEA /* yykit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yykit.json; sourceTree = "<group>"; };
 		8DF37599956C92FAD26D0EBF /* Pods_libraryAnalyse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libraryAnalyse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4BB1A2247EC16D003D5C63 /* libraryAnalyse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libraryAnalyse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4BB1A5247EC16D003D5C63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,8 +66,6 @@
 		9B4BB1C8247EC16E003D5C63 /* libraryAnalyseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libraryAnalyseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4BB1CC247EC16E003D5C63 /* libraryAnalyseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libraryAnalyseUITests.m; sourceTree = "<group>"; };
 		9B4BB1CE247EC16E003D5C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BF74C05247FE74C00E35CC8 /* YYKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKitViewController.h; sourceTree = "<group>"; };
-		9BF74C06247FE74C00E35CC8 /* YYKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYKitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +111,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		86DF15242480F98900F31EEA /* AFN */ = {
+			isa = PBXGroup;
+			children = (
+				86DF15252480F98900F31EEA /* AFNViewController.h */,
+				86DF15262480F98900F31EEA /* AFNViewController.m */,
+			);
+			path = AFN;
+			sourceTree = "<group>";
+		};
+		86DF15282480F99300F31EEA /* YYKit */ = {
+			isa = PBXGroup;
+			children = (
+				86DF15292480F99300F31EEA /* YYModelViewController.h */,
+				86DF152A2480F99300F31EEA /* YYModelViewController.m */,
+			);
+			path = YYKit;
+			sourceTree = "<group>";
+		};
+		86DF152C2480FA6600F31EEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				86DF153124810DAA00F31EEA /* yykit.json */,
+			);
+			name = Sources;
+			path = libraryAnalyse/Sources;
+			sourceTree = "<group>";
+		};
 		9B4BB199247EC16D003D5C63 = {
 			isa = PBXGroup;
 			children = (
 				9B4BB1A4247EC16D003D5C63 /* libraryAnalyse */,
+				86DF152C2480FA6600F31EEA /* Sources */,
 				9B4BB1C0247EC16E003D5C63 /* libraryAnalyseTests */,
 				9B4BB1CB247EC16E003D5C63 /* libraryAnalyseUITests */,
 				9B4BB1A3247EC16D003D5C63 /* Products */,
@@ -136,6 +166,8 @@
 			children = (
 				9B4BB1A5247EC16D003D5C63 /* AppDelegate.h */,
 				9B4BB1A6247EC16D003D5C63 /* AppDelegate.m */,
+				86DF15242480F98900F31EEA /* AFN */,
+				86DF15282480F99300F31EEA /* YYKit */,
 				9B4BB1A8247EC16D003D5C63 /* SceneDelegate.h */,
 				9B4BB1A9247EC16D003D5C63 /* SceneDelegate.m */,
 				9B4BB1AB247EC16D003D5C63 /* ViewController.h */,
@@ -145,10 +177,6 @@
 				9B4BB1B3247EC16E003D5C63 /* LaunchScreen.storyboard */,
 				9B4BB1B6247EC16E003D5C63 /* Info.plist */,
 				9B4BB1B7247EC16E003D5C63 /* main.m */,
-				86982A95247FA243000E42DF /* AFNViewController.h */,
-				86982A96247FA243000E42DF /* AFNViewController.m */,
-				9BF74C05247FE74C00E35CC8 /* YYKitViewController.h */,
-				9BF74C06247FE74C00E35CC8 /* YYKitViewController.m */,
 			);
 			path = libraryAnalyse;
 			sourceTree = "<group>";
@@ -276,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86DF153224810DAB00F31EEA /* yykit.json in Resources */,
 				9B4BB1B5247EC16E003D5C63 /* LaunchScreen.storyboard in Resources */,
 				9B4BB1B2247EC16E003D5C63 /* Assets.xcassets in Resources */,
 				9B4BB1B0247EC16D003D5C63 /* Main.storyboard in Resources */,
@@ -345,10 +374,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86DF152B2480F99300F31EEA /* YYModelViewController.m in Sources */,
 				9B4BB1AD247EC16D003D5C63 /* ViewController.m in Sources */,
-				86982A97247FA243000E42DF /* AFNViewController.m in Sources */,
+				86DF15272480F98900F31EEA /* AFNViewController.m in Sources */,
 				9B4BB1A7247EC16D003D5C63 /* AppDelegate.m in Sources */,
-				9BF74C07247FE74C00E35CC8 /* YYKitViewController.m in Sources */,
 				9B4BB1B8247EC16E003D5C63 /* main.m in Sources */,
 				9B4BB1AA247EC16D003D5C63 /* SceneDelegate.m in Sources */,
 			);

@@ -20,8 +20,8 @@
     [super viewDidLoad];
     self.title = @"三方库";
     self.view.backgroundColor = [UIColor whiteColor];
-    self.titleArray = [NSMutableArray arrayWithObjects:@"AFNetworking",@"YYKit", nil];
-    self.controllers = [NSMutableArray arrayWithObjects:@"AFNViewController",@"YYKitViewController", nil];
+    self.titleArray = [NSMutableArray arrayWithObjects:@"AFNetworking",@"YYKit/YYModel", nil];
+    self.controllers = [NSMutableArray arrayWithObjects:@"AFNViewController",@"YYModelViewController", nil];
     [self.view addSubview:self.tableView];
     
 }
@@ -41,7 +41,6 @@
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"click indexPath");
     Class cls = NSClassFromString(self.controllers[indexPath.row]);
     UIViewController * next = [cls new];
     next.title = self.titleArray[indexPath.row];

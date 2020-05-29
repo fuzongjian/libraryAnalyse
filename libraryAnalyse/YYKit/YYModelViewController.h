@@ -1,8 +1,8 @@
 //
-//  YYKitViewController.h
+//  YYModelViewController.h
 //  libraryAnalyse
 //
-//  Created by 付宗建 on 2020/5/28.
+//  Created by deltalpha on 2020/5/29.
 //  Copyright © 2020 52body. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YYKitViewController : UIViewController
+@interface YYModelViewController : UIViewController
 
 @end
 
